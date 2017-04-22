@@ -2,5 +2,5 @@
 
 int main(void){
   int a, b, c;
-  char a, b;
+  char a, b, c;
 }
