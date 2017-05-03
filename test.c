@@ -5,5 +5,5 @@ int main(void){
   char a, b, c;
   long a, b, c;
   int a[100], b[100], c[100];
-  char a[101], b[101];
+  char a[101], b[101], c[101];
 }
