@@ -4,10 +4,11 @@
 int main(void){
   double n;
   int i = 1, k, t, input;
-  scanf("%lf", &sqrt(n));
+  scanf("%lf", &n);
   input = (int)n;
-  while(i<=n){
-      i++;
+  n = sqrt(n);
+  while(i<=n-1){
+    i++;
   }
   k = input - i*i;
   t = i;
