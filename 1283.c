@@ -7,9 +7,9 @@ int main(void){
   res = a;
   for(i=0;i<b;i++){
     scanf("%d ", &tmp);
-    res *= (tmp + 100) / 100;
+    res = res + (res * tmp / 100);
   }
-  if(a>res) printf("%0.f\nbad", a - res);
+  if(a>res) printf("%0.f\nbad", res - a);
   else if(a<res) printf("%0.f\ngood", res - a);
   else if(a==res) printf("%d\nsame", 0);
 }
