@@ -1,21 +1,23 @@
 #include <stdio.h>
-#include <string.h>
 
 int main(void){
-  int i, n, j;
-  char arr[51][3], tmp[100];
+  int i, n, j, point[100], tmp;
+  char *name[101], temp;
   scanf("%d", &n);
   for(i=0;i<n;i++){
-    scanf("%s %d", &arr[i][0], &arr[i][1]);
+    scanf("%s %d", &name[i], &point[i]);
   }
   for(i=0;i<n;i++){
     for(j=0;j<n-1;j++){
-      if(arr[j][1]>arr[j+1][1]){
-        tmp = arr[j];
-        arr[j] = arr[j+1];
-        arr[j+1] = tmp;
+      if(point[j]>point[j+1]){
+        tmp = point[j];
+        point[j] = point[j+1];
+        point[j+1] = tmp;
+        temp = *name[j];
+        *name[j] = *name[j+1];
+        name[j+1] = temp;
       }
     }
   }
-  printf("%s", arr[2][0]);
+  printf("%s", name[0]);
 }
