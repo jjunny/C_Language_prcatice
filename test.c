@@ -7,5 +7,5 @@ int main(void){
   int a[100], b[100], c[100];
   char a[101], b[101], c[101];
   unsigned int a, b, c;
-  long long a, b;
+  long long a, b, c;
 }
