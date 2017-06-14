@@ -9,4 +9,5 @@ int main(void){
   unsigned int a, b, c;
   long long a, b, c;
   unsigned char a[101], b[101], c[101];
+  long double a;
 }
