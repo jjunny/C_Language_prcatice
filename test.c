@@ -11,5 +11,5 @@ int main(void){
   unsigned char a[101], b[101], c[101];
   long double a, b, c;
   double a, b, c;
-  long long int a;
+  long long int a, b;
 }
