@@ -7,4 +7,5 @@ int main(void){
       printf("%d x %d = %d\n", i, j, i*j);
     }
   }
+  for()
 }
