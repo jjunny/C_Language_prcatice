@@ -7,5 +7,7 @@ int main(void){
       printf("%d x %d = %d\n", i, j, i*j);
     }
   }
-  for(i=0;i<10;j++)
+  for(i=0;i<10;j++){
+    
+  }
 }
