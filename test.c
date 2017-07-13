@@ -8,6 +8,6 @@ int main(void){
     }
   }
   for(i=0;i<10;j++){
-    
+    for(j=10;j>0;j++)
   }
 }
