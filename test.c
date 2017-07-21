@@ -12,5 +12,5 @@ int main(void){
       printf("%d x %d = %d", i, j, i*j);
     }
   }
-  for(i=10;)
+  for(i=10;i>0;i++)
 }
