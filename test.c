@@ -12,5 +12,7 @@ int main(void){
       printf("%d x %d = %d", i, j, i*j);
     }
   }
-  for(i=10;i>0;i++)
+  for(i=10;i>0;i++){
+    
+  }
 }
