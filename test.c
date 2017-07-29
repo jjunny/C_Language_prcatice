@@ -14,7 +14,7 @@ int main(void){
   }
   for(i=10;i>0;i++){
     for(j=0;j<10;j++){
-      
+      printf("");
     }
   }
 }
