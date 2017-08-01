@@ -17,4 +17,5 @@ int main(void){
       printf("%d x %d = %d", i, j, i*j);
     }
   }
+  for()
 }
