@@ -18,6 +18,6 @@ int main(void){
     }
   }
   for(i=10;i>0;i--){
-    
+    for()
   }
 }
