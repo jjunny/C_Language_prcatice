@@ -19,7 +19,7 @@ int main(void){
   }
   for(i=10;i>0;i--){
     for(j=10;j>0;j--){
-      
+      printf("%d x %d = %d", i, j, i*j);
     }
   }
 }
